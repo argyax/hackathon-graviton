@@ -1,0 +1,620 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Alata:400");
+
+
+.fitur-add-trash {
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .fitur-add-trash .div {
+    background-color: #f9fafb;
+    overflow: hidden;
+    width: 375px;
+    height: 962px;
+    position: relative;
+  }
+  
+  .fitur-add-trash .text-wrapper {
+    position: absolute;
+    top: 308px;
+    left: 27px;
+    font-family: "Alata", Helvetica;
+    font-weight: 400;
+    color: #324b31b2;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fitur-add-trash .line {
+    position: absolute;
+    width: 69px;
+    height: 1px;
+    top: 333px;
+    left: 22px;
+    object-fit: cover;
+  }
+  
+  .fitur-add-trash .frame {
+    position: absolute;
+    width: 152px;
+    height: 281px;
+    top: 373px;
+    left: 22px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px #00000029;
+  }
+  
+  .fitur-add-trash .text-wrapper-2 {
+    position: absolute;
+    top: 236px;
+    left: 31px;
+    font-family: "Alata", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fitur-add-trash .p {
+    position: absolute;
+    top: 257px;
+    left: 9px;
+    font-family: "Alata", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fitur-add-trash .image {
+    width: 152px;
+    height: 206px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .fitur-add-trash .frame-2 {
+    position: absolute;
+    width: 152px;
+    height: 186px;
+    top: 373px;
+    left: 199px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px #00000029;
+  }
+  
+  .fitur-add-trash .text-wrapper-3 {
+    position: absolute;
+    top: 134px;
+    left: 41px;
+    font-family: "Alata", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fitur-add-trash .text-wrapper-4 {
+    position: absolute;
+    top: 155px;
+    left: 43px;
+    font-family: "Alata", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fitur-add-trash .img {
+    width: 152px;
+    height: 126px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .fitur-add-trash .overlap {
+    position: absolute;
+    width: 152px;
+    height: 186px;
+    top: 676px;
+    left: 22px;
+    border-radius: 12px;
+  }
+  
+  .fitur-add-trash .frame-3 {
+    position: absolute;
+    width: 152px;
+    height: 186px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px #00000029;
+  }
+  
+  .fitur-add-trash .text-wrapper-5 {
+    position: absolute;
+    top: 134px;
+    left: 31px;
+    font-family: "Alata", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fitur-add-trash .text-wrapper-6 {
+    position: absolute;
+    top: 158px;
+    left: 15px;
+    font-family: "Alata", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fitur-add-trash .frame-4 {
+    position: absolute;
+    width: 152px;
+    height: 280px;
+    top: 576px;
+    left: 199px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px #00000029;
+  }
+  
+  .fitur-add-trash .text-wrapper-7 {
+    position: absolute;
+    top: 214px;
+    left: 16px;
+    font-family: "Alata", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fitur-add-trash .image-2 {
+    width: 151px;
+    height: 187px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .fitur-add-trash .text-wrapper-8 {
+    position: absolute;
+    width: 116px;
+    top: 235px;
+    left: 18px;
+    font-family: "Alata", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fitur-add-trash .bg-header {
+    position: absolute;
+    width: 498px;
+    height: 285px;
+    top: -15px;
+    left: -60px;
+  }
+  
+  .fitur-add-trash .overlap-group {
+    position: relative;
+    height: 285px;
+  }
+  
+  .fitur-add-trash .rectangle {
+    position: absolute;
+    width: 375px;
+    height: 248px;
+    top: 9px;
+    left: 61px;
+    background-color: #4c8c6d;
+  }
+  
+  .fitur-add-trash .BG {
+    position: absolute;
+    width: 498px;
+    height: 285px;
+    top: 0;
+    left: 0;
+  }
+  
+  .fitur-add-trash .group {
+    width: 500px;
+    height: 285px;
+  }
+  
+  .fitur-add-trash .overlap-2 {
+    position: relative;
+    width: 498px;
+    height: 285px;
+  }
+  
+  .fitur-add-trash .llleaves {
+    position: absolute;
+    width: 498px;
+    height: 285px;
+    top: 0;
+    left: 0;
+    background-color: #06c167;
+  }
+  
+  .fitur-add-trash .overlap-3 {
+    position: relative;
+    width: 376px;
+    height: 262px;
+    top: 11px;
+    left: 59px;
+  }
+  
+  .fitur-add-trash .group-2 {
+    position: absolute;
+    width: 375px;
+    height: 257px;
+    top: 4px;
+    left: 1px;
+  }
+  
+  .fitur-add-trash .overlap-wrapper {
+    position: absolute;
+    width: 344px;
+    height: 41px;
+    top: 221px;
+    left: 17px;
+  }
+  
+  .fitur-add-trash .overlap-4 {
+    position: relative;
+    height: 41px;
+  }
+  
+  .fitur-add-trash .bx-bx-search-alt {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 14px;
+    left: 12px;
+    overflow: hidden;
+  }
+  
+  .fitur-add-trash .element-ilxe-cuhg {
+    position: absolute;
+    width: 49px;
+    height: 40px;
+    top: 2095px;
+    left: 5448px;
+    object-fit: cover;
+  }
+  
+  .fitur-add-trash .vector {
+    position: absolute;
+    width: 5px;
+    height: 3px;
+    top: 4px;
+    left: 5px;
+  }
+  
+  .fitur-add-trash .overlap-group-wrapper {
+    position: absolute;
+    width: 344px;
+    height: 41px;
+    top: 0;
+    left: 0;
+  }
+  
+  .fitur-add-trash .overlap-group-2 {
+    position: relative;
+    height: 41px;
+    border-radius: 11px;
+  }
+  
+  .fitur-add-trash .vector-2 {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 28px;
+    left: 33px;
+  }
+  
+  .fitur-add-trash .rectangle-2 {
+    position: absolute;
+    width: 344px;
+    height: 41px;
+    top: 0;
+    left: 0;
+    background-color: #f6f6f6;
+    border-radius: 11px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .fitur-add-trash .group-3 {
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    top: 15px;
+    left: 13px;
+  }
+  
+  .fitur-add-trash .vector-3 {
+    position: absolute;
+    width: 12px;
+    height: 13px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .fitur-add-trash .text-wrapper-9 {
+    position: absolute;
+    width: 88px;
+    top: 0;
+    left: 29px;
+    font-family: "Alata", Helvetica;
+    font-weight: 400;
+    color: #00000070;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fitur-add-trash .element-wrapper {
+    position: absolute;
+    width: 46px;
+    height: 44px;
+    top: 155px;
+    left: 314px;
+    background-color: #187b78;
+    border-radius: 23px/22px;
+    border: 1px solid;
+    border-color: #deb141;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .fitur-add-trash .element {
+    position: absolute;
+    width: 43px;
+    height: 44px;
+    top: 3px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .fitur-add-trash .bg-sticky {
+    position: absolute;
+    width: 375px;
+    height: 134px;
+    top: 0;
+    left: 0;
+    background-color: var(--colorsecondary-900);
+  }
+  
+  .fitur-add-trash .BG-2 {
+    position: absolute;
+    width: 374px;
+    height: 130px;
+    top: 4px;
+    left: 1px;
+  }
+  
+  .fitur-add-trash .pick-your-trash {
+    position: absolute;
+    width: 339px;
+    top: 158px;
+    left: 74px;
+    font-family: var(--typography-headline-2-22px-font-family);
+    font-weight: var(--typography-headline-2-22px-font-weight);
+    color: #ffffff;
+    font-size: var(--typography-headline-2-22px-font-size);
+    letter-spacing: var(--typography-headline-2-22px-letter-spacing);
+    line-height: var(--typography-headline-2-22px-line-height);
+    font-style: var(--typography-headline-2-22px-font-style);
+  }
+  
+  .fitur-add-trash .bottom-navbar {
+    position: fixed;
+    width: 375px;
+    height: 90px;
+    top: 872px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .fitur-add-trash .rectangle-3 {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    top: 77px;
+    left: 138px;
+    background-color: var(--colorblue-gray200);
+    border-radius: 100px;
+  }
+  
+  .fitur-add-trash .div-wrapper {
+    position: absolute;
+    width: 90px;
+    height: 69px;
+    top: 0;
+    left: 0;
+  }
+  
+  .fitur-add-trash .uil-home-alt-wrapper {
+    position: relative;
+    width: 46px;
+    height: 46px;
+    top: 12px;
+    left: 22px;
+    background-color: var(--colorprimary-brand50);
+    border-radius: 23px;
+  }
+  
+  .fitur-add-trash .uil-home-alt {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 11px;
+    left: 11px;
+  }
+  
+  .fitur-add-trash .frame-5 {
+    width: 90px;
+    height: 69px;
+    display: flex; /* Enable flexbox layout for child elements */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+    justify-content: center; /* Center child elements vertically */
+  }
+  
+  .fitur-add-trash .img-2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 19px;
+    left: 33px;
+  }
+  
+  .fitur-add-trash .text-wrapper-10 {
+    position: absolute;
+    top: 46px;
+    left: 18px;
+    font-family: var(--typography-caption-1-12px-font-family);
+    font-weight: var(--typography-caption-1-12px-font-weight);
+    color: var(--colorcool-gray300);
+    font-size: var(--typography-caption-1-12px-font-size);
+    text-align: center;
+    letter-spacing: var(--typography-caption-1-12px-letter-spacing);
+    line-height: var(--typography-caption-1-12px-line-height);
+    white-space: nowrap;
+    font-style: var(--typography-caption-1-12px-font-style);
+  }
+  
+  .fitur-add-trash .frame-6 {
+    width: 90px;
+    height: 69px;
+    display: flex; /* Enable flexbox layout for child elements */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+    justify-content: center; /* Center child elements vertically */
+  }
+  
+  .fitur-add-trash .text-wrapper-11 {
+    position: absolute;
+    top: 46px;
+    left: 25px;
+    font-family: var(--typography-caption-1-12px-font-family);
+    font-weight: var(--typography-caption-1-12px-font-weight);
+    color: var(--colorcool-gray300);
+    font-size: var(--typography-caption-1-12px-font-size);
+    text-align: center;
+    letter-spacing: var(--typography-caption-1-12px-letter-spacing);
+    line-height: var(--typography-caption-1-12px-line-height);
+    white-space: nowrap;
+    font-style: var(--typography-caption-1-12px-font-style);
+  }
+  
+  .fitur-add-trash .frame-7 {
+    width: 90px;
+    height: 69px;
+    display: flex; /* Enable flexbox layout for child elements */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+    justify-content: center; /* Center child elements vertically */
+  }
+  
+  .fitur-add-trash .text-wrapper-12 {
+    position: absolute;
+    top: 46px;
+    left: 23px;
+    font-family: var(--typography-caption-1-12px-font-family);
+    font-weight: var(--typography-caption-1-12px-font-weight);
+    color: var(--colorcool-gray300);
+    font-size: var(--typography-caption-1-12px-font-size);
+    text-align: center;
+    letter-spacing: var(--typography-caption-1-12px-letter-spacing);
+    line-height: var(--typography-caption-1-12px-line-height);
+    white-space: nowrap;
+    font-style: var(--typography-caption-1-12px-font-style);
+  }
+
+  .fitur-add-trash .rectangle-2 {
+    /* Add your existing styles for the rectangle */
+    /* Example: */
+    width: 340px; /* Set the width to your desired value */
+    height: 40x; /* Set the height to your desired value */
+}
+
+.fitur-add-trash .text-wrapper-9 {
+    width: 100%; /* Make the input fill the entire width of its container */
+    height: 100%; /* Make the input fill the entire height of its container */
+    border: none; /* Remove the input border, if needed */
+    padding: 0; /* Remove padding, if needed */
+}
+
+
+  :root {
+    --colorsecondary-900: rgba(38, 38, 38, 1);
+    --colorblue-gray200: rgba(226, 232, 240, 1);
+    --colorprimary-brand50: rgba(230, 249, 240, 1);
+    --colorcool-gray300: rgba(209, 213, 219, 1);
+    --typography-headline-2-22px-font-family: "ReadexPro-Bold", Helvetica;
+    --typography-headline-2-22px-font-weight: 700;
+    --typography-headline-2-22px-font-size: 22px;
+    --typography-headline-2-22px-letter-spacing: 0px;
+    --typography-headline-2-22px-line-height: 28px;
+    --typography-headline-2-22px-font-style: normal;
+    --typography-caption-1-12px-font-family: "ReadexPro-Regular", Helvetica;
+    --typography-caption-1-12px-font-weight: 400;
+    --typography-caption-1-12px-font-size: 12px;
+    --typography-caption-1-12px-letter-spacing: 0.5px;
+    --typography-caption-1-12px-line-height: 16px;
+    --typography-caption-1-12px-font-style: normal;
+  }
+  

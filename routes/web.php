@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Route bawaan default laravel
 Route::get('/', function () {
-    return view('welcome');
+    return view('beranda');
 });
+
+//Route Pages
+// Using the string format
+Route::get('/trash', 'PageController@trash');
+Route::get('/trash/addTrash', 'PageController@addTrash');
